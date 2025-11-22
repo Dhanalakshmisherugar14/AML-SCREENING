@@ -1,16 +1,77 @@
-# React + Vite
+# AML Screening for AIF Investors – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, responsive landing page built using **React**, **Vite**, and **Tailwind CSS**.  
+This project showcases Taghash’s AML (Anti-Money Laundering) Screening solution for SEBI-regulated AIFs, including compliance features, SEBI obligations, FAQs, documents, and CTAs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- **React 18**
+- **Vite**
+- **Tailwind CSS**
+- **React DOM**
+- **Lucide Icons (optional)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 Project Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/aif-aml-screening.git
+cd aif-aml-screening
+2️⃣ Install Dependencies
+bash
+Copy code
+npm install
+3️⃣ Start Development Server
+bash
+Copy code
+npm run dev
+Vite will start the dev server and show a local URL like:
+
+arduino
+Copy code
+http://localhost:5173
+🛠 Build for Production
+bash
+Copy code
+npm run build
+Preview the production build:
+
+bash
+Copy code
+npm run preview
+🧱 Project Structure
+css
+Copy code
+aif-aml-screening/
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+│
+└── src/
+    ├── App.jsx
+    ├── main.jsx
+    ├── index.css
+    │
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── Hero.jsx
+    │   ├── WhyAML.jsx
+    │   ├── Obligations.jsx
+    │   ├── Documents.jsx
+    │   ├── FAQ.jsx
+    │   ├── WhyTaghash.jsx
+    │   ├── CTASection.jsx
+    │   └── Footer.jsx
+    │
+    └── assets/
+```
+
+Deployment
+https://aml-screening.vercel.app/
