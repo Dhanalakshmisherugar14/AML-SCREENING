@@ -65,45 +65,57 @@ const Obligations = () => {
         </div>
 
         {/* Light Info Card */}
-        <div className="mt-14 grid md:grid-cols-2 gap-10">
+        {/* Light Info Card */}
+        <div className="mt-14">
+          <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-white p-8 shadow-lg">
+            
+            {/* Soft Highlight Layer */}
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-50/50 to-transparent pointer-events-none" />
 
-          {/* Left */}
-          <div className="bg-white border border-slate-100 rounded-2xl p-10 shadow-lg">
-            <h4 className="text-2xl font-bold text-slate-900 mb-4">What This Means for You</h4>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-blue-600" />
-                <p className="text-slate-700">Automated investor screening to eliminate manual errors.</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-blue-600" />
-                <p className="text-slate-700">Comply with all SEBI-mandated AML checks seamlessly.</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-blue-600" />
-                <p className="text-slate-700">Instant PEP, sanctions & criminal background alerts.</p>
-              </li>
-            </ul>
-          </div>
+            {/* Content */}
+            <div className="relative flex flex-col items-center justify-center gap-8 sm:flex-row">
 
-          {/* Right / Contact Card */}
-          <div className="bg-gradient-to-r from-blue-50 to-slate-100 border border-slate-200 rounded-2xl p-10 shadow-lg">
-            <h4 className="text-2xl font-bold text-slate-900 mb-4">SEBI Compliance Helpdesk</h4>
-            <p className="text-slate-600 mb-6">For regulatory queries, reach SEBI directly:</p>
-
-            <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <Phone className="w-6 h-6 text-blue-700" />
-                <p className="font-medium text-slate-800">+91 22 2644 9000</p>
+              {/* Phone Section */}
+              <div className="flex items-center gap-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-50 shadow-sm">
+                  <Phone className="h-5 w-5 text-blue-600" />
+                </div>
+                <div className="text-left">
+                  <p className="text-xs font-medium text-slate-500 tracking-wide uppercase">
+                    CNO Contact
+                  </p>
+                  <p className="text-lg font-semibold text-slate-900">
+                    +91 22 2644 9000
+                  </p>
+                </div>
               </div>
 
-              <div className="flex items-center gap-3">
-                <Mail className="w-6 h-6 text-blue-700" />
-                <p className="font-medium text-slate-800">cno@sebi.gov.in</p>
+              {/* Divider */}
+              <div className="hidden sm:block h-12 w-px bg-slate-200" />
+
+              {/* Email Section */}
+              <div className="flex items-center gap-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-50 shadow-sm">
+                  <Mail className="h-5 w-5 text-blue-600" />
+                </div>
+                <div className="text-left">
+                  <p className="text-xs font-medium text-slate-500 tracking-wide uppercase">
+                    Email Address
+                  </p>
+                  <a
+                    href="mailto:cno@sebi.gov.in"
+                    className="text-lg font-semibold text-slate-900 transition-colors hover:text-blue-600"
+                  >
+                    cno@sebi.gov.in
+                  </a>
+                </div>
               </div>
+
             </div>
           </div>
         </div>
+
+    
 
       </div>
     </section>

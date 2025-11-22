@@ -47,12 +47,10 @@ const FAQ = () => {
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <p className="text-indigo-600 font-semibold tracking-wide uppercase text-sm mb-3">
-            Frequently Asked Questions
-          </p>
+          
 
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight mb-4">
-            Clear Answers on AML Compliance & Investor Risk
+            Frequently Asked Questions
           </h2>
 
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto">

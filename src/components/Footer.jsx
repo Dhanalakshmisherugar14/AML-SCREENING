@@ -11,14 +11,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
           {/* Branding - Left */}
-          <div className="max-w-sm space-y-4">
-            <img src={logo} alt="Taghash" className="h-10" />
+          <div className="max-w-sm space-y-4 mx-auto md:mx-0 text-center md:text-left">
+            <img src={logo} alt="Taghash" className="h-10 mx-auto md:mx-0" />
 
             <p className="text-gray-400 text-base leading-relaxed">
               Accreditation and compliance, made simple and secure.
             </p>
             
-            <div className="flex items-center gap-4 mt-4">
+            <div className="flex items-center justify-center md:justify-start gap-4 mt-4">
               <a href="#" className="text-gray-400 hover:text-white transition">
                 <Linkedin className="h-5 w-5" />
               </a>
