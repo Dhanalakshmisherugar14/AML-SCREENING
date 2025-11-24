@@ -6,16 +6,19 @@ const documents = [
     type: "Checklist",
     description: "Complete SEBI AML Compliance Checklist",
     icon: FileText,
+    pdfLink: "https://www.sebi.gov.in/legal/master-circulars/jun-2024/guidelines-on-anti-money-laundering-aml-standards-and-combating-the-financing-of-terrorism-cft-obligations-of-securities-market-intermediaries-under-the-prevention-of-money-laundering-act-2002-a-_83942.html", // Update with your actual PDF link
   },
   {
     type: "Report Template",
     description: "Sample AML Screening Report Format",
     icon: FileText,
+    pdfLink: "https://fiuindia.gov.in/pdfs/downloads/SBA.pdf", // Update with your actual PDF link
   },
   {
     type: "Regulatory Guide",
     description: "SEBI Master Circular Clause Reference",
     icon: FileText,
+    pdfLink: "https://www.sebi.gov.in/legal/master-circulars/jun-2024/guidelines-on-anti-money-laundering-aml-standards-and-combating-the-financing-of-terrorism-cft-obligations-of-securities-market-intermediaries-under-the-prevention-of-money-laundering-act-2002-a-_83942.html", // Update with your actual PDF link
   },
 ];
 
@@ -56,14 +59,19 @@ const Documents = () => {
                 {doc.description}
               </h3>
 
-              {/* Button */}
-              <button className="w-full flex items-center justify-center gap-2 
-                                 border border-indigo-300 text-indigo-700 rounded-lg py-3.5 px-6 
-                                 font-semibold bg-white hover:bg-indigo-600 hover:text-white 
-                                 hover:border-indigo-600 transition-all duration-300 shadow-md">
+              {/* Download Link */}
+              <a 
+                href={doc.pdfLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center gap-2 
+                           border border-indigo-300 text-indigo-700 rounded-lg py-3.5 px-6 
+                           font-semibold bg-white hover:bg-indigo-600 hover:text-white 
+                           hover:border-indigo-600 transition-all duration-300 shadow-md"
+              >
                 <Download className="h-5 w-5" />
                 Download PDF
-              </button>
+              </a>
             </div>
           ))}
         </div>
