@@ -64,10 +64,7 @@ const Documents = () => {
                 href={doc.pdfLink} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-full flex items-center justify-center gap-2 
-                           border border-indigo-300 text-indigo-700 rounded-lg py-3.5 px-6 
-                           font-semibold bg-white hover:bg-indigo-600 hover:text-white 
-                           hover:border-indigo-600 transition-all duration-300 shadow-md"
+                className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1"
               >
                 <Download className="h-5 w-5" />
                 Download PDF

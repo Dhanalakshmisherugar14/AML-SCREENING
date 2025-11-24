@@ -55,7 +55,7 @@ const WhyTaghash = () => {
 
         {/* CTA */}
         <div className="text-center mt-20">
-          <button className="bg-indigo-600 text-white px-10 py-4 rounded-xl text-lg font-semibold shadow-lg shadow-indigo-500/40 hover:bg-indigo-700 hover:shadow-indigo-400/70 transition duration-300">
+          <button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1">
             Talk to an Expert
           </button>
         </div>

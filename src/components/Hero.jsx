@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Soft Overlay */}
       <div className="absolute inset-0 bg-white/60 backdrop-blur-[2px]" />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-24 md:py-32">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-8 pb-24 md:pt-12 md:pb-32">
         <div className="text-center space-y-10">
           
           {/* Badge */}
@@ -40,11 +40,7 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">
-            <button className="bg-gradient-to-r from-blue-600 to-blue-700 
-              hover:from-blue-700 hover:to-blue-800
-              text-white px-10 py-4 rounded-xl font-semibold text-base 
-              shadow-lg shadow-blue-500/30 hover:shadow-blue-600/40
-              transition-all duration-300 hover:-translate-y-0.5">
+            <button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1">
               Explore AML Screening Solution
             </button>
 

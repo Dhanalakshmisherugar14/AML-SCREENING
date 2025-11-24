@@ -5,24 +5,29 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white/90 backdrop-blur-md border-b border-gray-100 fixed w-full z-50 top-0 left-0 font-sans transition-all duration-300">
+    <nav className="bg-white/70 backdrop-blur-md px-8 py-4 sticky top-0 z-[1000] font-sans border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-20 items-center">
+        <div className="flex justify-between  items-center">
 
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer">
-            <img src={logo} alt="Taghash Logo" className="h-10 w-auto object-contain" />
-          </div>
+          <img 
+            src={logo} 
+            alt="Taghash Logo" 
+            className="h-16 w-auto object-contain" 
+            style={{ imageRendering: '-webkit-optimize-contrast' }}
+          />
+        </div>
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center gap-8 xl:gap-10">
-            <a href="#" className="text-gray-600 text-[13px] font-medium hover:text-blue-700 transition duration-300">Home</a>
-            <a href="#why-aml" className="text-gray-600 text-[13px] font-medium hover:text-blue-700 transition duration-300">Why AML?</a>
-            <a href="#obligations" className="text-gray-600 text-[13px] font-medium hover:text-blue-700 transition duration-300">SEBI Obligations</a>
-            <a href="#documents" className="text-gray-600 text-[13px] font-medium hover:text-blue-700 transition duration-300">Documents</a>
-            <a href="#faq" className="text-gray-600 text-[13px] font-medium hover:text-blue-700 transition duration-300">FAQ</a>
-            <a href="#why-taghash" className="text-gray-600 text-[13px] font-medium hover:text-blue-700 transition duration-300">Why Taghash</a>
-            <a href="#contact" className="text-gray-600 text-[13px] font-medium hover:text-blue-700 transition duration-300">Contact</a>
+            <a href="#" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">Home</a>
+            <a href="#why-aml" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">Why AML?</a>
+            <a href="#obligations" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">SEBI Obligations</a>
+            <a href="#documents" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">Documents</a>
+            <a href="#faq" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">FAQ</a>
+            <a href="#why-taghash" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">Why Taghash</a>
+            <a href="#contact" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">Contact</a>
           </div>
 
           {/* Buttons */}

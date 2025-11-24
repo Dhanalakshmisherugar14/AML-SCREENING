@@ -22,10 +22,7 @@ const CTASection = () => {
           
           <a
             href="#"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 
-                       border border-transparent text-base font-medium rounded-md 
-                       text-blue-700 bg-white hover:bg-blue-50 transition duration-300 
-                       shadow-md hover:shadow-xl"
+            className="w-full sm:w-auto inline-flex items-center justify-center bg-white text-blue-700 px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl hover:bg-blue-50 hover:shadow-xl hover:-translate-y-1"
           >
             Get Started with AML Screening
           </a>
