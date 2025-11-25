@@ -35,7 +35,7 @@ const WhyAML = () => {
           <p className="text-lg md:text-xl text-slate-700 font-medium leading-relaxed">
             Taghash delivers automated investor verification, risk analysis and ongoing monitoring —  
             fully aligned with{" "}
-            <span className="text-blue-700 font-semibold break-words">
+            <span className="text-black font-bold break-words">
               SEBI Circular No. SEBI/HO/MIRSD/MIRSDSECFATF/P/CIR/2024/78
             </span>.
           </p>
