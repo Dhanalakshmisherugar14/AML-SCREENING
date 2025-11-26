@@ -18,8 +18,8 @@ const Obligations = () => {
             Understand Your SEBI Obligations, Clause by Clause
           </h3>
 
-          <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-            Stay aligned with the SEBI Master Circular for AML & CFT compliance.
+          <p className="mt-4 text-sm text-slate-600 max-w-2xl mx-auto">
+            Get clarity on jurisdictional compliance, PEP screening, required documents and monitoring obligations.
           </p>
         </div>
 
@@ -35,7 +35,7 @@ const Obligations = () => {
         <div className="bg-white rounded-2xl border border-slate-200 shadow-[0_4px_30px_rgba(0,0,0,0.04)] overflow-hidden">
           <div>
             <table className="min-w-full text-left">
-              <thead className="text-slate-700 bg-slate-100 text-sm">
+              <thead className="bg-slate-100 text-slate-900">
                 <tr>
                   <th scope="col" className="py-4 px-6 text-base md:text-lg font-bold">Clause</th>
                   <th scope="col" className="py-4 px-6 text-base md:text-lg font-bold">Focus Area</th>
@@ -47,28 +47,28 @@ const Obligations = () => {
               <tbody>
                 {/* Row 1 */}
                 <tr className="border-b border-gray-100">
-                  <td className="py-4 px-6 text-base font-medium text-slate-500">18 (vi)</td>
-                  <td className="py-6 px-6 text-base text-slate-500">Criminal Background Verification</td>
-                  <td className="py-6 px-6 text-slate-500">
+                  <td className="py-4 px-6 text-sm font-medium text-slate-700">18 (vi)</td>
+                  <td className="py-6 px-6 text-sm text-slate-500">Criminal Background Verification</td>
+                  <td className="py-6 px-6 text-sm text-slate-600">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-red-100 text-red-800 border border-red-200 shadow-sm">
                       Critical
                     </span>
                   </td>
-                  <td className="py-6 px-6 text-slate-500">
+                  <td className="py-6 px-6 text-sm text-slate-500">
                     Mandatory checks before onboarding any investor.
                   </td>
                 </tr>
 
                 {/* Row 2 */}
                 <tr className="border-b border-gray-100">
-                  <td className="py-4 px-6 text-base font-medium text-slate-500">20 (i–iv)</td>
-                  <td className="py-6 px-6 text-base text-slate-500">PEP Screening</td>
-                  <td className="py-6 px-6 text-base text-slate-500">
+                  <td className="py-4 px-6 text-sm font-medium text-slate-700">20 (i–iv)</td>
+                  <td className="py-6 px-6 text-sm text-slate-500">PEP Screening</td>
+                  <td className="py-6 px-6 text-sm text-slate-600">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-orange-100 text-orange-800 border border-orange-200 shadow-sm">
                       High
                     </span>
                   </td>
-                  <td className="py-6 px-6 text-base text-slate-500">
+                  <td className="py-6 px-6 text-sm text-slate-500">
                     Enhanced due diligence, senior management approval, continuous
                     monitoring.
                   </td>
@@ -76,16 +76,16 @@ const Obligations = () => {
 
                 {/* Row 3 */}
                 <tr className="border-b border-gray-100">
-                  <td className="py-4 px-6 text-base font-medium text-slate-500">32, 54, 62, 64, 65</td>
-                  <td className="py-6 px-6 text-base text-slate-500">
+                  <td className="py-4 px-6 text-sm font-medium text-slate-700">32, 54, 62, 64, 65</td>
+                  <td className="py-6 px-6 text-sm text-slate-500">
                     Sanctions & Terrorist List Screening
                   </td>
-                  <td className="py-6 px-6 text-base text-slate-500">
+                  <td className="py-6 px-6 text-sm text-slate-600">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-red-100 text-red-800 border border-red-200 shadow-sm">
                       Critical
                     </span>
                   </td>
-                  <td className="py-6 px-6 text-base text-slate-500">
+                  <td className="py-6 px-6 text-sm text-slate-500">
                     Mandatory screening against UN, UAPA & designated lists.
                   </td>
                 </tr>
