@@ -22,8 +22,8 @@ const WhyAML = () => {
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Top Heading */}
-        <div className="text-center max-w-4xl mx-auto space-y-6">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 leading-snug">
+        <div className="text-center max-w-4xl mx-auto space-y-6 mb-8"> 
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
             Why AML Screening Matters
           </h2>
 

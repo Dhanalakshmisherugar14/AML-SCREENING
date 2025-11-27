@@ -12,7 +12,7 @@ const Obligations = () => {
         <div className="text-center mb-16">
           
 
-          <h3 className="mt-2 text-3xl md:text-4xl font-extrabold text-slate-900">
+          <h3 className="mt-2 text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
             Understand Your SEBI Obligations, Clause by Clause
           </h3>
 

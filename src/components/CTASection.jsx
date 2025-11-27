@@ -6,7 +6,7 @@ const CTASection = () => {
       <div className="max-w-3xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-extrabold text-white">
+        <h2 className="text-3xl md:text-4xl font-bold text-white">
           <span className="block">Ready to Secure Your Fund?</span>
         </h2>
 

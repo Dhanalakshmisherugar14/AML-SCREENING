@@ -29,7 +29,7 @@ const Documents = () => {
 
         {/* Heading */}
         <div className="mx-auto max-w-4xl text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 leading-tight">
             Access All SEBI-Mandated AML Compliance Documents
           </h2>
           
