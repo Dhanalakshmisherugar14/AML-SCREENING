@@ -26,7 +26,7 @@ const Navbar = () => {
             <a href="#obligations" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">SEBI Obligations</a>
             <a href="#documents" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">Documents</a>
             <a href="#faq" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">FAQ</a>
-            <a href="#why-taghash" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">Why Taghash</a>
+
             <a href="#contact" className="text-gray-500 text-[13px] font-medium hover:text-blue-700 transition duration-300">Contact</a>
           </div>
 
@@ -86,10 +86,7 @@ const Navbar = () => {
               FAQ
             </a>
 
-            <a href="#why-taghash" onClick={() => setIsOpen(false)}
-              className="block px-3 py-2 rounded-md text-gray-600 hover:text-blue-700 hover:bg-gray-50 transition">
-              Why Taghash
-            </a>
+
 
             <a href="#contact" onClick={() => setIsOpen(false)}
               className="block px-3 py-2 rounded-md text-gray-600 hover:text-blue-700 hover:bg-gray-50 transition">

@@ -72,7 +72,7 @@ const WhyAML = () => {
             shadow-lg hover:shadow-blue-700/40 hover:-translate-y-1 
             transition-all duration-300"
           >
-            Start Screening Your Investors
+           Talk to an Expert Today
           </button>
         </div>
       </div>

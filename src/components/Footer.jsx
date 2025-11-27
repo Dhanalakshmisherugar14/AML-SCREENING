@@ -49,7 +49,7 @@ const Footer = () => {
                 <li><a href="#obligations" className="hover:text-blue-600 transition">SEBI Obligations</a></li>
                 <li><a href="#documents" className="hover:text-blue-600 transition">Documents</a></li>
                 <li><a href="#faq" className="hover:text-blue-600 transition">FAQ</a></li>
-                <li><a href="#why-taghash" className="hover:text-blue-600 transition">Why Taghash</a></li>
+
                 <li><a href="#contact" className="hover:text-blue-600 transition">Contact</a></li>
               </ul>
             </div>

@@ -4,7 +4,7 @@ import WhyAML from './components/WhyAML'
 import Obligations from './components/Obligations'
 import Documents from './components/Documents'
 import FAQ from './components/FAQ'
-import WhyTaghash from './components/WhyTaghash'
+
 import CTASection from './components/CTASection'
 import Footer from './components/Footer'
 
@@ -21,7 +21,7 @@ function App() {
       <Obligations/>
       <Documents/>
       <FAQ/>
-      <WhyTaghash/>
+      
       <CTASection/>
       <Footer/>
     </>

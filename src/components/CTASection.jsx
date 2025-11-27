@@ -12,9 +12,9 @@ const CTASection = () => {
 
         {/* Sub-head */}
         <p className="mt-4 text-lg leading-7 text-blue-100">
-          Automate investor screening, reduce manual effort and eliminate human errors.  
+          Get investors screened faster with less manual effort and fewer errors.
           <br />
-          Ensure complete SEBI AML & CFT compliance from a single dashboard.
+          Ensure complete SEBI AML and CFT compliance in one go.
         </p>
 
         {/* CTA Buttons */}
@@ -25,15 +25,6 @@ const CTASection = () => {
             className="w-full sm:w-auto inline-flex items-center justify-center bg-white text-blue-700 px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl hover:bg-blue-50 hover:shadow-xl hover:-translate-y-1"
           >
             Get Started with AML Screening
-          </a>
-
-          <a
-            href="#"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 
-                       border border-white text-base font-medium rounded-md 
-                       text-white hover:bg-blue-600 transition duration-300"
-          >
-            Schedule a Demo
           </a>
         </div>
 
