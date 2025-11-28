@@ -35,7 +35,7 @@ const Hero = () => {
 
           {/* Subtext */}
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Ensure every investor is screened, every risk is quantified to operate with regulatory confidence.
+            Ensure every investor is screened, every risk is quantified to operate with regulatory confidence
           </p>
 
           {/* CTA Buttons */}

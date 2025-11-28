@@ -29,7 +29,7 @@ const WhyAML = () => {
 
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
             Compliance gaps can trigger severe penalties, frozen accounts, and long-term reputational loss.  
-            A single oversight can disrupt operations and expose your fund to multi-layered regulatory risks.
+            A single oversight can disrupt operations and expose your fund to multi-layered regulatory risks
           </p>
 
           <p className="text-lg md:text-xl text-slate-700 font-medium leading-relaxed">
@@ -37,7 +37,7 @@ const WhyAML = () => {
             fully aligned with{" "}
             <span className="text-black font-bold break-words">
               SEBI Circular No. SEBI/HO/MIRSD/MIRSDSECFATF/P/CIR/2024/78
-            </span>.
+            </span>
           </p>
         </div>
 

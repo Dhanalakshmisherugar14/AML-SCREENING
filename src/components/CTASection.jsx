@@ -12,7 +12,7 @@ const CTASection = () => {
 
         {/* Sub-head */}
         <p className="mt-4 text-lg leading-7 text-blue-100">
-          Get investors screened faster with less manual effort and fewer errors.
+          Get investors screened faster with less manual effort and fewer errors
           <br />
           Ensure complete SEBI AML and CFT compliance in one go
         </p>

@@ -60,7 +60,7 @@ const Obligations = () => {
                   </span>
                 </td>
                 <td className="py-6 px-6 text-slate-500">
-                  Enhanced due diligence + senior management approval + continuous monitoring.
+                  Enhanced due diligence + senior management approval + continuous monitoring
                 </td>
               </tr>
 
