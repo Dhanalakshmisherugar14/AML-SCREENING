@@ -73,7 +73,7 @@ const Documents = () => {
 
         {/* Footer Note */}
         <p className="mt-12 text-center text-sm italic text-gray-500">
-          (All documents updated to reflect SEBI regulations as of June 2025.)
+          (All documents updated to reflect SEBI regulations as of June 2025)
         </p>
       </div>
     </section>

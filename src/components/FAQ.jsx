@@ -54,7 +54,7 @@ const FAQ = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto">
-            Get clarity on jurisdictional compliance, PEP screening, required documents and monitoring obligations.
+            Get clarity on jurisdictional compliance, PEP screening, required documents and monitoring obligations
           </p>
         </div>
 
